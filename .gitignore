@@ -1,2 +1,48 @@
+# Ignore system files
+.DS_Store
+*.log
+
+# Ignore IDE directories
+.vscode/
+.idea/
+
+# Ignore node modules and dependencies
 node_modules/
+
+# Ignore environment variables
 .env
+
+# Ignore any embedded Git repositories
+105-coding_resources/
+105-project/
+105-turn_back_time/
+
+# Ignore SSH keys, configs, and history files
+../../.ssh/
+../../.zsh_history
+../../.zsh_sessions/
+../../.viminfo
+../../.npm/
+
+# Ignore other system and hidden files
+../../.CFUserTextEncoding
+../../.cisco/
+../../.config/
+../../.cursor-tutor-*
+../../.gitconfig
+../../.idlerc/
+../../.km-vm-store/
+../../.matplotlib/
+../../.npmrc
+../../.python_history
+../../.vscode-react-native/
+../../Applications/
+../../Documents/
+../../Downloads/
+../../Library/
+../../Movies/
+../../Music/
+../../My project/
+../../Pictures/
+../../Public/
+../../blenderkit_data/
